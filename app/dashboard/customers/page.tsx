@@ -1,9 +1,12 @@
-import { NextPage } from 'next'
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Customers',
+};
 
-interface Props {}
-
-const Page: NextPage<Props> = ({}) => {
-  return <p>Customers Page</p>
+export default async function Page() {
+  return (
+    <>
+    </>
+  )
 }
-
-export default Page
